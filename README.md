@@ -7,5 +7,6 @@ You can deploy this in three clicks:
  1. Click fork
  2. Click Settings
  3. Enable Github Pages on the "master" branch
- 
+ ![](2018-09-02-22-20-24.png)
+
 Your site should be reachable at `https://<Username>.github.io/html-css-only`
