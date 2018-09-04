@@ -10,3 +10,10 @@ You can deploy this in three clicks:
  ![](2018-09-02-22-20-24.png)
 
 Your site should be reachable at `https://<Username>.github.io/html-css-only`
+
+
+add this script tag 
+```html
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js"></script>
+
+```
