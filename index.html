@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="assets/css/main.css" />
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js"></script>
 	<title>My site</title>
 </head>
 	<body>
@@ -20,8 +20,10 @@
 			<div id="wrapper">
 
 				<!-- Banner -->
-					<section id="intro" class="main">
-						<span class="icon fa-diamond major"></span>
+					<section id="intro" class="main ">
+						<div id="to-animate"></div>
+						<span class="icon fa-diamond major">
+						</span>
 						<h2>Magna porta maximus</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae<br />
 						malesuada turpis. Nam pellentesque in ac aliquam. Aliquam tempor<br />
@@ -98,5 +100,22 @@
 					</footer>
 
 			</div>
+			<script>
+
+				let animation = bodymovin.loadAnimation({
+					container: document.getElementById('to-animate'),
+					renderer: 'svg',
+					loop: true,
+					autoplay: true,
+					path: 'assets/loading_rectangles.json'
+				})
+			
+			</script>
+			<style>
+			#to-animate {
+				width:10em;
+				display: inline-block
+			}
+			</style>
 	</body>
 </html>
