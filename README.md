@@ -12,14 +12,8 @@ You can deploy this in three clicks:
 Your site should be reachable at `https://<Username>.github.io/html-css-only`
 
 
-add this script tag 
-```html
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js"></script>
 
-```
-
-
-
+![](docs/lottie.gif)
 ## Adding bodymovin animations to a webpage
 
 We will be adding bodymovin animations to this simple portfolio site
@@ -27,7 +21,7 @@ We will be adding bodymovin animations to this simple portfolio site
 ### Setting up
 
 1. Fork the repo on Github
-![forking on github](fork.gif)
+	![forking on github](docs/fork.gif)
 2. Clone the repo so you can edit things locally
 3. Open up `index.html` in a web browser, you can refresh that page to see changes you made locally
 
